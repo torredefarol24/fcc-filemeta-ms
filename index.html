@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        FCC File Metadata Microservice
+    </title>
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" href="/flame.png" />
+</head>
+
+<body class="main-body">
+    <h1> FCC File Metadata Microservice</h1>
+
+    <div class="mt36 half-width">
+		<h3> Files Metadata</h3>
+		<form action="/api/file_analysis" enctype="multipart/form-data" method="post">
+			<label class="file-upload-label">
+				Select File
+				<input type="file" name="upfile" required  />
+			</label>
+			<button type="submit" class="submit-btn">Submit</button>
+		</form>
+    </div>
+
+    <p class="mt36"> Created By: <span class="my-name">BurningRaven06</span>
+        for FCC-API-Microservice</p>
+    
+</body>
+
+</html>

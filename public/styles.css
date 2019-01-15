@@ -1,0 +1,39 @@
+.main-body {
+    font-family: 'Work Sans';
+    padding: 30px 70px;
+}
+
+.mt36 {
+    margin-top: 36px;
+}
+
+.my-name {
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 16px
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file-upload-label{
+	background-color: sandybrown;
+	padding: 12px 120px;
+	font-size: 24px;
+}
+
+.submit-btn {
+    margin-top: 24px;
+    display: block;
+    min-width: 64px;
+    min-height: 32px;
+    background-color: coral;
+    font-family: 'Work Sans';
+    font-size: 24px;
+    border: 0px;
+    padding: 12px 24px;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase
+}
